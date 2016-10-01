@@ -11,6 +11,17 @@ namespace Hardware.Events.Input
     {
         private int _x, _y;
 
+        private bool _consumed;
+
+        public bool Consumed
+        {
+            get { return _consumed; }
+            set
+            {
+                _consumed = value;
+            }
+        }
+
         public int X
         {
             get { return _x; }

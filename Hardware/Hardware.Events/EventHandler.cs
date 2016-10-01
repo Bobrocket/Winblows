@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,14 +21,25 @@ namespace Hardware.Events
             return item;
         }
 
+        /*public static EventHandler<T> operator -(EventHandler<T> item, Action<T> e)
+        {
+            item._handlers.Remove(e);
+            return item;
+        }*/
+
         public void Call(T evt)
         {
-            foreach (Action<T> handler in _handlers) handler(evt);
+            foreach (Action<T> handler in _handlers.Items) if (handler != null) handler(evt);
         }
 
         public List<Action<T>> Handlers
         {
             get { return _handlers; }
+        }
+
+        public void Dispose()
+        {
+            Console.WriteLine("disposing");
         }
     }
 }

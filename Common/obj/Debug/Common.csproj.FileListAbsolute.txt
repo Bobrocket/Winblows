@@ -1,0 +1,15 @@
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Common.dll
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Common.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Cosmos.Debug.Kernel.dll
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Cosmos.System.dll
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Cosmos.Common.dll
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Cosmos.HAL.dll
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Cosmos.Core.dll
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Cosmos.System.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Cosmos.Debug.Kernel.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Cosmos.Common.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Cosmos.HAL.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\bin\Debug\Cosmos.Core.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\obj\Debug\Common.dll
+C:\Users\User\documents\visual studio 2015\Projects\CosmosKernel1\Common\obj\Debug\Common.pdb

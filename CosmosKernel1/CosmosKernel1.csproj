@@ -52,6 +52,10 @@
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{EAE48989-778B-4E87-BCBD-2690603EE12D}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Hardware\Hardware.csproj">
       <Project>{712c83ae-4b5d-43f7-99c6-352b3179a4eb}</Project>
       <Name>Hardware</Name>

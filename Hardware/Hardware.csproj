@@ -58,6 +58,17 @@
     <Compile Include="Hardware.Events\Input\MouseButtonReleasedEvent.cs" />
     <Compile Include="Hardware.Events\Input\MouseEvent.cs" />
     <Compile Include="Hardware.Input\Mouse.cs" />
+    <Compile Include="Interface\Forms\Control.cs" />
+    <Compile Include="Interface\Forms\Controls\Button.cs" />
+    <Compile Include="Interface\Forms\Window.cs" />
+    <Compile Include="Interface\Forms\WindowManager.cs" />
+    <Compile Include="Interface\Renderable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{eae48989-778b-4e87-bcbd-2690603ee12d}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
